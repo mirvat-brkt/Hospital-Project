@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div >
+          <h2><b>True life care</b></h2>
+        </div>
+        <div ><b><u>Home</u></b></div>
+        <div ><b><u>About</u></b></div>
+        <div><b><u>Departments</u></b></div>
+        <div><b><u>Doctors</u></b></div>
+     
+    </nav>
+    <div class="container">
+     <div >
+       <h2>Login</h2>
+       <form id="login-form" class="input-control"method="post" action="">
+          <label>Email:</label>
+          <input type="text" name="email" id="email1" required>
+          <br>
+          <label>Password:</label>
+          <input type="password" name="password" id="password1" required>
+          <br>
+          <button type="submit" id="login">Login</button>
+       </form> 
+     </div>
+     <div  >
+      <h2>Registration</h2>
+      <form id="register-form" class="input-control" method="post" action="">
+        
+          <label>Username:</label>
+          <input type="text" name="name"  id="name" required>
+          <br>
+          <label>Email:</label>
+          <input type="email" name="email"  id="email" required>
+          <br>
+          <label>Password:</label>
+          <input type="password" name="password" id="password" required>
+          <br>
+          <label>Date of birth:</label>
+          <input type="date" name="dob" id="dob" required>
+          <br>
+          <label>Gender:</label>
+          <input type="text" name="gender" id="gender" required>
+          <br>
+          <label>User Type:</label>
+          <select name="user_type" class="input" required>
+           <option value="patient">Patient</option>
+           <option value="employee">Employee</option>
+           <option value="admin">Admin</option>
+          </select>
+          <br>
+          <button type="submit" id="register">Register</button>
+      </form>
+  
+     </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
