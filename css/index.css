@@ -48,6 +48,16 @@
     border: 1px solid #ccc;
     font-size: 16px
   }
+  .center{
+    text-align: center;
+    margin-bottom: 2%;
+  }
+  .info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-size-adjust:26px;
+  }
   button{
     align-self: center;
     padding: 10px 20px;
