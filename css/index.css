@@ -12,6 +12,12 @@
     border : 2px solid  white;
     
   }
+  .navbar1{
+    align-items: center;
+    height: 100px;
+    background-color: #25ced1;
+    border : 2px solid  white;
+  }
   
   .container{
     display: flex;
@@ -56,8 +62,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    text-size-adjust:26px;
   }
+
   button{
     align-self: center;
     padding: 10px 20px;

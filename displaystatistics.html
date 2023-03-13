@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin pannel</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div >
+          <h2><b>Admin pannel</b></h2>
+        </div>
+        <div><a href="admin.html">Assign Employees</a></div>
+        <div><a href="assignpatients.html">Assign Patients</a></div>
+        <div><a href="displaystatisticshtml">Display Statistics</a></div>
+    </nav>
+    <h2 class="center">Hospital Management System Statistics</h2>
+  <p>Number of female employees: <span id="female-count"></span></p>
+  <br>
+  <p>Number of male employees: <span id="male-count"></span></p>
+  <br>
+  <table>
+    <thead>
+      <tr>
+        <th>Hospital Name</th>
+        <th>Number of Patients</th>
+      </tr>
+    </thead>
+    <tbody id="patient-counts">
+    </tbody>
+  </table>
+
+</body>
+</html>
